@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.box-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #129799;
+}
+
+.menu-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.menu-top ul{
+    display: flex;
+}
+
+.menu-top ul li{
+    margin-left: 4rem;
+    list-style: none;
+}
+
+.menu-top ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family:  Roboto, sans-serif;
+}
+
+.box-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 26rem;
+}
+
+.content-txt{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 50%;
+    font-size: 2rem;
+    color: white;
+    font-family:  Roboto, sans-serif;
+}
+
+.content-img{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.content-img img{
+    width: 600px;
+}
+
+.menu-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.menu-bottom ul{
+    display: flex;
+}
+
+.menu-bottom ul li{
+    margin-left: 4rem;
+    list-style: none;
+}
+
+.menu-bottom ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family:  Roboto, sans-serif;
+}
+
+.info-aquarela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFA185;
+    width: 100%;
+    height: 10rem;
+    padding-bottom: 5rem;
+}
+
+.info-txt{
+    width: 80%;
+}
+
+.info-txt h2{
+    color: white;
+    font-size: 2.2rem;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    font-family:  Roboto, sans-serif;
+}
+
+.info-txt p{
+    width: 80%;
+    font-size: 1.5rem;
+    font-family:  Roboto, sans-serif;
+}
+
+.box-fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFA185;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+    width: 100%;
+}
+
+.fotos img{
+    width: 40%;
+    padding: 0.5rem;
+}
+
+.seemost{
+    padding: 2.5rem 0;
+}
+
+.seemost a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family:  Roboto, sans-serif;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8rem;
+    background-color: #129799;
+}
+
+.redes-socias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.redes-socias img{
+    width: 35px;
+    padding: 0 0.7rem;
+}
+
+.aaa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.aaa ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.aaa ul li{
+    margin-left: 4rem;
+    list-style: none;
+}
+
+.aaa ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family:  Roboto, sans-serif;
+}
